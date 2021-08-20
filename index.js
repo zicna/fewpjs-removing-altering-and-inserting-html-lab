@@ -22,7 +22,7 @@
 // ul.removeChild(ul.querySelector('li:ntn-child(2)'))
 
 
-let main = document.getElementById("main");
+let main = document.getElementsByTagName("main")[0];
 main.remove()
 let body = document.getElementsByTagName('body')[0]
 let newHeader = document.createElement("h1")
